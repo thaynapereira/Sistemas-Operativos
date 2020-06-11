@@ -1,0 +1,10 @@
+#!/bin/bash
+
+if [ "$1" = "servidor" ]
+then
+	make servidor
+	./servidor
+else
+	make cliente
+	./cliente
+fi
